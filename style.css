@@ -1,0 +1,330 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+                
+    
+    
+    
+}
+/* full navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: "Poppins", sans-serif; 
+}
+/* full navbar */   
+
+
+/* left navbar */
+.navbar .navleft{
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+.navbar .navleft .navleftbox {
+    width: 220px;
+   height: 70px;
+    margin-left: 40%;
+    line-height: 80px;
+ 
+
+}
+.navbar .navleft .navleftbox :hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+   
+}
+.navbar .navleft .navleftbox input{
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    background-color: transparent;
+    
+}
+.navbar .navleft .navleftbox input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+/* right navbar */
+.navbar .navright{
+    width: 50%;
+    height: inherit;
+    float: right;
+     
+}
+.navbar .navright .navrightbox{
+    width: 500px;
+    height: inherit;
+}
+.navbar .navright .navrightbox a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-inline: 30px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.navbar .navright .navrightbox #brown{
+    color: #896a5b;
+}
+/* hero-section */
+.hero-section{
+    width: 100%;
+    height: 400px;
+    background-image: url("DAY 6/AESSETS/assets/hero section bg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.hero-section a{
+    text-decoration: none;
+    color: black;
+    line-height: 80px;
+    font-size: 26px;
+    font: weight 300px;;
+    letter-spacing: 12PX;
+    word-spacing: 50px;
+    line-height: 85px;
+    font-family: "Poppins", sans-serif; 
+}
+
+#for {
+    font-weight: 200;
+}
+/* hero-section */
+
+
+/* main */
+
+.main{
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.main .mainleft{
+    width: 45%;
+    height: inherit;
+    float: left;  
+}
+.main .mainleft img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.main .mainright{
+    width: 55%;
+    height: inherit;
+    float: left;
+    border: 1px solid rgb(203, 203, 203);
+    border-left: none;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+.main .mainright .mainsub-1{
+    width: 100%;
+    height: 50px;
+   
+} 
+.main .mainright .mainsub-1 .subimg{
+    width: 57px;
+    height: inherit;
+    float: left;
+    margin-left: -10px;
+   
+}
+.main .mainright .mainsub-1 .subimg img{
+    width: 100%;
+    height: 100%;
+}
+.main .mainright .mainsub-1 .subadmin{
+    width: 200px;
+    height: inherit;
+    float: left;
+    font-size: 14px;
+}
+.main .mainright .mainsub-2{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+}
+.main .mainright .mainsub-2 h1{
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: -2;
+
+}
+.main .mainright .mainsub-2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.main .mainright .mainsub-3{
+    width: 100%;
+    height: 45px;
+    margin-top: 23px;
+    border-top: 1px solid rgb(203, 203, 203);
+    padding-top: 10px;
+  
+}
+.main .mainright .mainsub-3 .sub-3left{
+    width: 170px;
+    height: inherit;
+    font-size: 13px;
+    float: left;
+
+}
+.main .mainright .mainsub-3 .sub-3left span{
+    margin-right: 10px;
+}
+.main .mainright .mainsub-3 .sub-3right{
+    width: 30px;
+    height: inherit;
+    float: right;
+    font-size: 13px;
+} 
+.main .mainright .mainsub-3 .sub-3right i{
+    color: rgb(205, 34, 34);
+}
+
+/* View All posts */
+#posts {
+    width: 330px;
+    height: 45px;
+    margin-top: 60px;
+    margin-left: 40%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
+#posts:hover {
+    background-color:  rgb(198, 196, 196);
+    color: rgb(70, 65, 65);
+    border: none;
+    transition: 0.4s;
+}
+/* gallery */
+.heading p {
+    margin-left: 21%;
+    line-height: 80px;
+    letter-spacing: -1px;
+    color: rgb(27, 24, 24);
+    
+}
+#gly{
+    display: inline-block;
+  position: relative;
+  left: 6.4%;
+  font-size: 20px;
+}
+.container {
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+}
+.container .img img {
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;  
+    margin-left: 0px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-inline: 10px;
+}
+/* footer */
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 10px;
+    padding-inline: 10%;
+}
+.footer .head h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+#light {
+    font-weight: 200;
+}
+.icon {
+    height: 40px;
+    width: 170px;
+    margin-top: 60px;
+    margin-left: 350px;
+    float: left;
+}
+.icon i {
+    color: white;
+    margin-inline: 7px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.form {
+    height: 100px;
+    width: 350px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    margin-left: 4.2%;
+    margin-top: 45px;
+    float: left;
+}
+.form label {
+    color: white;
+    margin-left: 12%;
+    font-size: 13px;
+}
+.form input {
+    margin-left: 12%;
+    background-color: black;
+    border: 1.5px solid white;
+    width: 260px;
+    height: 30px;
+}
+.form input:hover {
+    border: 3px solid white;
+}
+#follow {
+    height: 30px;
+    width: 260px;
+    margin-left: 12%;
+    margin-top: 12px;
+    background-color: black;
+    border: 1.5px solid white;
+    color: white;
+    cursor: pointer;
+}
+#follow:hover {
+    background-color: rgb(198, 196, 196);
+    color: black;
+    transition: 0.4s;
+}
+.webname {
+    height: 40px;
+    width: 210px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 70px;
+}
+.webname p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
